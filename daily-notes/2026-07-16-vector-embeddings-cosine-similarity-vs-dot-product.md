@@ -5,10 +5,11 @@ topic: "Vector embeddings: Cosine similarity vs dot product"
 
 # Vector Embeddings: Cosine Similarity vs. Dot Product
 
-When working with vector embeddings, measuring semantic similarity is fundamental to locating relevant information. Cosine similarity and dot product are the two primary mathematical metrics used to determine how close two vectors reside in a high-dimensional space. While dot product calculates the product of the vectors' magnitudes multiplied by the cosine of the angle between them, cosine similarity normalizes the vectors first, focusing exclusively on the angle and ignoring differences in magnitude.
+Vector similarity metrics are mathematical formulas used to quantify the closeness of two high-dimensional embeddings in a vector space. While **dot product** calculates the sum of the products of corresponding elements—measuring both directional alignment and vector magnitude—**cosine similarity** measures only the cosine of the angle between two vectors, effectively normalizing their lengths to focus purely on directional alignment.
 
 ## Why it matters
 
-In Agentic AI and Retrieval-Augmented Generation (RAG) architectures, selecting the correct similarity metric directly impacts both retrieval accuracy and system latency:
+In Generative AI and Retrieval-Augmented Generation (RAG) pipelines, choosing the wrong similarity metric directly degrades retrieval accuracy and agent performance. Autonomous agents rely on vector databases to fetch relevant context, historical memories, or tool definitions. 
 
-*   **Semantic Consistency:**
+* **Cosine similarity** is the safest default when document chunk lengths vary. Because it ignores magnitude, a long document and a short sentence addressing the same topic will still yield a high similarity score.
+* **Dot product** is computationally cheaper and faster. When embeddings are normalized (scaled to a magnitude of 1.0), dot product is mathematically equivalent to cosine similarity. For high-throughput agentic workflows, normalizing embeddings upstream and using dot
