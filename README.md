@@ -3,6 +3,7 @@
 Daily GenAI/Agentic AI concept explore  — On LangChain, LangGraph, RAG, MCP aur Claude API .
 
 ## 📅 Daily Log
+- **2026-07-30** — Gemini API: Function calling and structured outputs → [read note](./daily-notes/2026-07-30-gemini-api-function-calling-and-structured-outputs.md)
 - **2026-07-29** — Agentic AI: Single-agent vs multi-agent systems → [read note](./daily-notes/2026-07-29-agentic-ai-single-agent-vs-multi-agent-systems.md)
 - **2026-07-23** — LangChain: Callback handlers for observability → [read note](./daily-notes/2026-07-23-langchain-callback-handlers-for-observability.md)
 - **2026-07-20** — LangChain: Memory types - Buffer vs Summary vs Vector memory → [read note](./daily-notes/2026-07-20-langchain-memory-types-buffer-vs-summary-vs-vector-memory.md)
