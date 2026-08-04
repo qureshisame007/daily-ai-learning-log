@@ -3,6 +3,7 @@
 Daily GenAI/Agentic AI concept explore  — On LangChain, LangGraph, RAG, MCP aur Claude API .
 
 ## 📅 Daily Log
+- **2026-08-04** — LangChain: Retrievers vs Vector stores - what's the difference → [read note](./daily-notes/2026-08-04-langchain-retrievers-vs-vector-stores-what-s-the-difference.md)
 - **2026-08-03** — LangChain: Custom output parsers → [read note](./daily-notes/2026-08-03-langchain-custom-output-parsers.md)
 - **2026-08-02** — LangChain: Memory types - Buffer vs Summary vs Vector memory → [read note](./daily-notes/2026-08-02-langchain-memory-types-buffer-vs-summary-vs-vector-memory.md)
 - **2026-08-01** — LangChain: LCEL (LangChain Expression Language) basics → [read note](./daily-notes/2026-08-01-langchain-lcel-langchain-expression-language-basics.md)
