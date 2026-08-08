@@ -3,6 +3,7 @@
 Daily GenAI/Agentic AI concept explore  — On LangChain, LangGraph, RAG, MCP aur Claude API .
 
 ## 📅 Daily Log
+- **2026-08-08** — LangGraph: Conditional edges and branching logic → [read note](./daily-notes/2026-08-08-langgraph-conditional-edges-and-branching-logic.md)
 - **2026-08-07** — LangGraph: Nodes and edges - building a graph → [read note](./daily-notes/2026-08-07-langgraph-nodes-and-edges-building-a-graph.md)
 - **2026-08-06** — LangGraph: StateGraph fundamentals → [read note](./daily-notes/2026-08-06-langgraph-stategraph-fundamentals.md)
 - **2026-08-05** — LangChain: Callback handlers for observability → [read note](./daily-notes/2026-08-05-langchain-callback-handlers-for-observability.md)
